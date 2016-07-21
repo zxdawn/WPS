@@ -1,0 +1,5 @@
+# Ignore the actual namelist (which will change) and the backup
+namelist.wps
+namelist.wps.autowrf-backup
+
+configure.wps
