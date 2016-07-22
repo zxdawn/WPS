@@ -1,0 +1,22 @@
+# Ignore the actual namelist (which will change) and the backup
+namelist.wps
+namelist.wps.autowrf-backup
+
+# Ignore other run time or generated files
+configure.wps
+Vtable
+**/*.BACKUP
+**/*.exe
+**/*.log
+
+# Ignore compiled files. WPS, like WRF, preprocesses .F files in .f90 files
+**/*.f90
+**/*.mod
+**/*.a
+**/*.o
+
+# Ignore any output
+geo_em*
+met_em*
+FILE*
+GRIBFILE*
